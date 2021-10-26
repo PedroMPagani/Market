@@ -1,7 +1,8 @@
 # Market Issue tracker
 
 This is the oficial public repository related to the following resource:
-https://www.mc-market.org/resources/21698/
+
+[link] https://www.mc-market.org/resources/21698/
 
 
 # For faster support, please, contact discord below:
