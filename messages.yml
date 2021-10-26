@@ -1,0 +1,22 @@
+
+
+help:
+  - '&bUse /market see to see the market.'
+  - '&bUse /market personal to open your personal market.'
+  - '&bUse /market sell <price> to sell one item in the public market'
+  - '&bUse /market sell <user> <price> to sell one item to a specific user'
+
+
+not-enough-money-to-buy: "&cYou don't have enough money to buy this."
+item-purchased: "&aYou bought one item on the market."
+you-sold-one-item: "&aYou have sold one item on the market."
+item-removed: "&cYou removed the item successfully!"
+type-value-in-money-chance: "&aPlease write the new amount you want to sell this item for. Use &c'cancel' &ato cancel the change."
+changed-price: "&aThe price of this Auction was changed successfully."
+sell-use-only-number: "&aPlease use /market sell value, value should be a number."
+sell-private-use-only-number: "&aPlease use /market sell <player> value, value should be a number."
+announced: "&aThe item was announced on the market successfully"
+need-item-in-hand: "&cTo sell something you at least need one item in your main hand."
+offline-player-sell: "&cThis player is offline or doesn't exist."
+plugin-reload: "&aThe plugin was reloaded successfully"
+cannot-sell-to-your-self: "&cYou cannot sell it to yourself."
