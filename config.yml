@@ -1,0 +1,35 @@
+
+# Any issue encountered? https://github.com/PedroMPagani/Market
+
+
+
+# If expire-items is true, you need to put an amount of time in "time:", the amount is in minutes so 1 hour is 60, 2 is 120, and goes on...
+# Default is yes, it expires in 2 hours.
+settings:
+  expire-items: true
+  time: 120
+
+# All item identifiers can be found here:
+# There are some for specific version, and the 1.17 is related to every version.
+
+# 1.8: https://helpch.at/docs/1.8/org/bukkit/Material.html
+# 1.9: https://helpch.at/docs/1.9/org/bukkit/Material.html
+# 1.10: http://www.helpch.at/docs/1.10/index.html?org/bukkit/material/package-summary.html
+# 1.11: https://helpch.at/docs/1.10.2/index.html?org/bukkit/Material.html
+# 1.12: https://helpch.at/docs/1.12.2/org/bukkit/Material.html
+# 1.13: https://helpch.at/docs/1.13/org/bukkit/Material.html
+# 1.14: https://helpch.at/docs/1.14/org/bukkit/Material.html
+# 1.15: https://helpch.at/docs/1.15/index.html?org/bukkit/Material.html
+# 1.16: https://helpch.at/docs/1.16.2/org/bukkit/Material.html
+# 1.17: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+
+blocked-items:
+  - 'BLACK_BED'
+
+mysql:
+  host: 'localhost'
+  user: 'user_179787'
+  password: 'a1aa1350dc'
+  db: 'user_179787'
+  port: 3306
+  tablename: 'paganitst'
